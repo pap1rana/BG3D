@@ -1,0 +1,41 @@
+body {
+    background-color: #1f2833;
+    font-family: 'Nunito';
+    font-size: 21px;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(0, 139, 139, 50%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    /* background-color: rgba(0, 139 , 139, 50%); */
+    display: block;
+    color: wheat;
+    text-decoration: none;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+    background: darkcyan;
+}
+
+#sve {
+    max-width: 90%;
+}
+
+footer {
+    background-color: darkcyan;
+}
+
+@media all and (max-width: 600px) {}
