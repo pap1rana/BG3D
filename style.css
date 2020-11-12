@@ -7,23 +7,28 @@ body {
 
 header {
     background-color: rgba(0, 139, 139, 50%);
+    height: 50px;
+    padding-top: 10px;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 nav a {
     /* background-color: rgba(0, 139 , 139, 50%); */
     display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
     color: wheat;
     text-decoration: none;
     text-align: center;
     width: 33%;
     padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 nav a:hover {
@@ -34,8 +39,34 @@ nav a:hover {
     max-width: 90%;
 }
 
+#centar{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+#uno{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#uno img{
+    width: 100%;
+}
+
 footer {
-    background-color: darkcyan;
+    background-color:  rgba(0, 139, 139, 50%);
+    display: inline-block;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    color: wheat;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 @media all and (max-width: 600px) {}
